@@ -7,7 +7,7 @@
 # shellcheck disable=SC2034,SC2154
 # ToDo: Add files: User documentation
 # ToDo: Add files: Tooling
-# FixMe: Archive looks for
+# FixMe: Package cannot fine source directory
 # FixMe: Namcap warnings and errors
 
 # Maintainer: Daniel Bermond <dbermond@archlinux.org>
@@ -15,11 +15,11 @@
 # Contributor: Antoine Lubineau <antoine@lubignon.info>
 # Contributor: Ross Clark <contact@artisteducator.com>
 
+
 _downloadid='b17880a8bd654989a1641b0179c2db2f'
 _referid='a621f90811c846f4bcd7016ec896311f'
 _siteurl="https://www.blackmagicdesign.com/api/register/us/download/${_downloadid}"
 _useragent="User-Agent: Mozilla/5.0 (X11; Linux ${CARCH}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
-
 _reqjson="{ \
     \"platform\": \"Linux\", \
     \"country\": \"us\", \
