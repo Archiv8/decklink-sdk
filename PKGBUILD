@@ -7,14 +7,11 @@
 # shellcheck disable=SC2034,SC2154
 # ToDo: Add files: User documentation
 # ToDo: Add files: Tooling
-# FixMe: Package cannot fine source directory
+# FixMe: Build Failure. Package cannot find source directory
 # FixMe: Namcap warnings and errors
 
-# Maintainer: Daniel Bermond <dbermond@archlinux.org>
-# Contributor: Muhammad Yahya Harlan <muhammad.harlan@binus.ac.id>
-# Contributor: Antoine Lubineau <antoine@lubignon.info>
-# Contributor: Ross Clark <contact@artisteducator.com>
-
+# Maintainer: Ross Clark <archiv8@artisteducator.com>
+# Contributor: Ross Clark <archiv8@artisteducator.com>
 
 _downloadid='b17880a8bd654989a1641b0179c2db2f'
 _referid='a621f90811c846f4bcd7016ec896311f'
