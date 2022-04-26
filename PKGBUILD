@@ -49,7 +49,7 @@ DLAGENTS=("https::/usr/bin/curl \
 
 pkgname=decklink-sdk
 pkgver=12.2.2
-pkgrel=1
+pkgrel=2
 epoch=1
 pkgdesc='Blackmagic DeckLink SDK'
 arch=('any')
