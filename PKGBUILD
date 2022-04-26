@@ -49,8 +49,8 @@ DLAGENTS=("https::/usr/bin/curl \
 
 pkgname=decklink-sdk
 pkgver=12.2.2
-pkgrel=2
-epoch=1
+pkgrel=3
+# epoch=
 pkgdesc='Blackmagic DeckLink SDK'
 arch=('any')
 url='https://www.blackmagicdesign.com/support/family/capture-and-playback'
