@@ -5,18 +5,18 @@
 # repository root directory, see https://github.com/koalaman/shellcheck/wiki
 # and https://archiv8.github.io for further information.
 # shellcheck disable=SC2034,SC2154
-# ToDo: Add files: User documentation
-# ToDo: Add files: Tooling
-# FixMe: Build Failure. Package cannot find source directory
-# FixMe: Namcap warnings and errors
+# [ToDo]: Add files: User documentation
+# [ToDo]: Add files: Tooling
+# [FixMe]: Namcap warnings and errors
 
 # Maintainer: Ross Clark <archiv8@artisteducator.com>
 # Contributor: Ross Clark <archiv8@artisteducator.com>
 
-_downloadid='b17880a8bd654989a1641b0179c2db2f'
-_referid='a621f90811c846f4bcd7016ec896311f'
+_downloadid='5d8eaacc274b409dbbee4b9d7724d073'
+_referid='0be12cd3250349e4b90af2118b34b19c'
 _siteurl="https://www.blackmagicdesign.com/api/register/us/download/${_downloadid}"
-_useragent="User-Agent: Mozilla/5.0 (X11; Linux ${CARCH}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+_useragent="User-Agent: Mozilla/5.0 (X11; Linux ${CARCH}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36"
+
 _reqjson="{ \
     \"platform\": \"Linux\", \
     \"country\": \"us\", \
@@ -48,8 +48,8 @@ DLAGENTS=("https::/usr/bin/curl \
               %u")
 
 pkgname=decklink-sdk
-pkgver=12.2.2
-pkgrel=3
+pkgver=12.4
+pkgrel=1
 # epoch=
 pkgdesc='Blackmagic DeckLink SDK'
 arch=('any')
@@ -58,9 +58,8 @@ license=('custom')
 makedepends=('poppler')
 provides=('blackmagic-decklink-sdk')
 conflicts=('blackmagic-decklink-sdk')
-replaces=('blackmagic-decklink-sdk')
 source=("Blackmagic_DeckLink_SDK_${pkgver}.zip"::"$_srcurl")
-sha256sums=('542ed9bdb888c06458379f939becc9dc6efc6787ef6b1d31e8c41f02df68541f')
+sha512sums=('ba28ede4b9618babd0ee14836f65ad746f3ff5c36115bc56628e262674fbf264c5c684947c68b60d9d611bdf01a43788e27ee8cd27dff2ee2ffd86ce1ccbc5ff')
 
 prepare() {
     pdftotext -layout "Blackmagic DeckLink SDK ${pkgver}/End User License Agreement.pdf"
